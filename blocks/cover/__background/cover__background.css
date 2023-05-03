@@ -1,0 +1,6 @@
+.cover__background{
+background-image: url("../../../images/__background.png");
+grid-column: 1;
+grid-row: 1/3;
+background-size: cover;
+}

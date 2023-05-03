@@ -1,0 +1,23 @@
+.content__s{
+  margin: 0;
+  padding: 0;
+    padding: 0 100px 0 100px;
+      
+    }
+    @media screen and (max-width: 1279px) {
+        .content__s{
+          padding: 0 48px 0 48px;
+        }
+      }
+      @media screen and (max-width: 1023px) {
+        .content__s{
+          padding: 0;
+        }
+      }
+    
+    
+      @media screen and (max-width: 767px) {
+        .content__s{
+            padding: 0;
+        }
+      }

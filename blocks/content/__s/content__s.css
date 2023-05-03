@@ -1,0 +1,22 @@
+.content__l{
+      
+    margin: 0;
+    padding: 0;
+    }
+    @media screen and (max-width: 1279px) {
+        .content__l{
+          padding: 0 48px 0 48px;
+        }
+      }
+      @media screen and (max-width: 1023px) {
+        .content__l{
+          padding: 0;
+        }
+      }
+    
+    
+      @media screen and (max-width: 767px) {
+        .content__l{
+            padding: 48px 0 0 0;
+        }
+      }

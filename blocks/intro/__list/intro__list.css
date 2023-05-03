@@ -1,0 +1,13 @@
+.intro__list{
+padding: 0;
+margin: 0;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 1.5;
+list-style-type:none;
+padding-top: 33px;
+}
+.intro_list span{
+    font-weight: 400;
+}
