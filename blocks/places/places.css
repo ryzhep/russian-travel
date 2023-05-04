@@ -1,16 +1,31 @@
 .places {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 460px 1fr;
     padding: 0;
     margin: 0;
     column-gap: 40px;
-    row-gap: 48px;
-    padding-top: 92px;
+    row-gap: 64px;
+    padding-top: 84px;
 }
 
+@media screen and (max-width: 1279px) {
+    .places {
+        grid-template-columns: 441px 1fr;
+        row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        grid-template-columns: 340px 1fr;
+        row-gap: 64px;
+        padding-left: 24px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .places {
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
     }
 }
