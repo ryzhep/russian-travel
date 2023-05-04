@@ -1,14 +1,13 @@
-.places__url-heading{
+.places__url-heading {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1;
-    /* identical to box height, or 100% */
     letter-spacing: 2px;
     color: #AAAAAA;
-      
-align-self: end;
-margin: 0;
-padding: 0;
-}
+    align-self: end;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0 0 12px 0;
 
+}

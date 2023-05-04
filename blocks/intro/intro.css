@@ -1,22 +1,22 @@
-.intro{
+.intro {
     margin: 0;
     padding: 0;
     width: 70%;
     align-content: left;
-      
+
     padding-bottom: 92px;
 }
+
 @media screen and (max-width: 1023px) {
-    .intro{
+    .intro {
         padding: 0 24px 88px 24px;
         width: fit-content;
     }
-  }
+}
 
-  @media screen and (max-width: 767px) {
-    .intro{
+@media screen and (max-width: 767px) {
+    .intro {
         padding: 0 16px 64px 16px;
         width: fit-content;
     }
-  }
-
+}

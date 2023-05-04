@@ -1,25 +1,25 @@
-.cover{
+.cover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-      
     padding: 0;
     margin: 0;
     padding-top: 92px;
     min-height: 740px;
     background-repeat: no-repeat;
 }
+
 @media screen and (max-width: 767px) {
-    .cover{
+    .cover {
         min-height: 320px;
         padding-top: 66px;
     }
-  }
+}
 
-  @media screen and (max-width: 1023px) {
-    .cover{
+@media screen and (max-width: 1023px) {
+    .cover {
         max-height: fit-content;
         min-height: 0;
         padding-top: 90px;
     }
-  }
+}

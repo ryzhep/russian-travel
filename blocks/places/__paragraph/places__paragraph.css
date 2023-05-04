@@ -1,20 +1,21 @@
-.places__paragraph{
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 163%;
-
+.places__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    padding: 0;
+    margin: 0;
 }
 
 
 @media screen and (max-width: 767px) {
-    .places__paragraph{
+    .places__paragraph {
         padding: 0 16px 0 16px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__paragraph {
         font-size: 16px;
     }
-    }
-    @media screen and (max-width: 1023px) {
-        .places__paragraph{
-            font-size: 16px;
-        }
-        }
+}

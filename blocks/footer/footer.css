@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -8,8 +8,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    .footer{
+    .footer {
         flex-direction: column;
         padding-top: 64px;
     }
-  }
+}

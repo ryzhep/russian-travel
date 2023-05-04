@@ -1,5 +1,5 @@
-.photo-grid__image{
-min-height: 70px;
+.photo-grid__image {
+    min-height: 70px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;

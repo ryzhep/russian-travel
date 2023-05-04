@@ -1,4 +1,4 @@
-.header__lang-links{
+.header__lang-links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -6,9 +6,8 @@
     margin: 0;
     padding: 0;
     font-style: normal;
-font-weight: 400;
-font-size: 24px;
-padding-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 10px;
 
 }
-

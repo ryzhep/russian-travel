@@ -1,5 +1,5 @@
-.header__logo{
-   
-    width: max-content;
-  }
-  
+.header__logo {
+  width: max-content;
+  min-width: 176px;
+  min-height: 52px;
+}
