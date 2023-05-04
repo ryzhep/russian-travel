@@ -1,12 +1,10 @@
 .content__slim-section {
-  margin: 0;
   padding: 0;
   margin: 0 148px 0 148px;
 }
 
 @media screen and (max-width: 1279px) {
   .content__slim-section {
-    padding: 0;
     margin: 0;
   }
 }
