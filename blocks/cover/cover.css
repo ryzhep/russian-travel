@@ -2,34 +2,14 @@
     padding: 0;
     margin: 0;
     margin-top: 92px;
-    min-height: 740px;
     background-repeat: no-repeat;
     background-image: url("../../../images/__back.png");
     background-size: cover;
 }
 
-.cover:hover {
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1279px) {
-    .cover {
-        min-height: 640px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .cover {
-        max-height: 392px;
-        min-height: 480px;
-    }
-}
 
 @media screen and (max-width: 767px) {
     .cover {
-        padding-top: 33px;
         margin-top: 44px;
-        max-height: 200px;
-        min-height: 150px;
     }
 }
