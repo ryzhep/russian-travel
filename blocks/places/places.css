@@ -19,6 +19,7 @@
     .places {
         grid-template-columns: 340px 1fr;
         row-gap: 64px;
+        padding-right: 24px;
         padding-left: 24px;
     }
 }
@@ -26,6 +27,8 @@
 @media screen and (max-width: 767px) {
     .places {
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 0;
+        padding: 0;
+        padding-top: 37px;
+        row-gap: 32px;
     }
 }

@@ -8,9 +8,3 @@
     padding: 0;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .content__wide-section {
-    padding: 48px 0 0 0;
-  }
-}

@@ -3,14 +3,15 @@
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .places__paragraphs {
-        padding: 0 16px 0 16px;
-    }
-}
 
 @media screen and (max-width: 1023px) {
     .places__paragraphs {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__paragraphs {
+        padding: 0 16px 0 16px;
     }
 }

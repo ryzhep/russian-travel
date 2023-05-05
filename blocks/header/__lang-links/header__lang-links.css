@@ -10,3 +10,8 @@
     font-size: 24px;
 }
 
+@media screen and (max-width: 767px) {
+    .header__lang-links {
+        font-size: 18px;
+    }
+  }

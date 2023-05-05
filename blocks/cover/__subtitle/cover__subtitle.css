@@ -3,8 +3,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
-    grid-column: 1;
-    grid-row: 2;
     text-align: center;
     align-self: start;
     width: 30%;
@@ -13,6 +11,13 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 2;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .cover__subtitle {
+        width: 52%;
+    }
 }
 
 @media screen and (max-width: 767px) {
