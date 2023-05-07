@@ -2,11 +2,10 @@
     color: #fff;
     list-style-type: none;
     text-decoration: none;
-    padding-right: 10px;
+    min-width: 29px;
 }
+
 .header__lang-link:hover {
     opacity: 0.8;
 }
-.header__lang-link:nth-child(2) {
-    padding-right: 0;
-}
+

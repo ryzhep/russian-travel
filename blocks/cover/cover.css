@@ -8,8 +8,14 @@
 }
 
 
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin-top: 55px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .cover {
-        margin-top: 44px;
+        margin-top: 61px;
     }
 }

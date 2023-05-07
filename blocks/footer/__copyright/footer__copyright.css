@@ -12,5 +12,6 @@
     .footer__copyright {
         flex-direction: column;
         text-align: left;
+        margin-top: 16px;
     }
 }
